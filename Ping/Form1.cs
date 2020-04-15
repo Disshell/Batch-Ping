@@ -89,6 +89,7 @@ namespace Ping
             catch (PingException)
             {
                 listBox1.Items.Add(host + ";" + "Unknown Host");
+                progressBar1.Value++;
             }
             
         }
